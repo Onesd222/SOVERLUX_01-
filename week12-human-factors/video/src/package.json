@@ -1,0 +1,13 @@
+{
+  "name": "week12-human-factors-video",
+  "private": true,
+  "description": "12주차 항공정비 인적요소 3D 수업 영상 렌더 소스 (Three.js + headless Chromium + ffmpeg)",
+  "scripts": {
+    "check": "node render.js check",
+    "render": "node render.js all 3"
+  },
+  "dependencies": {
+    "@fontsource/noto-sans-kr": "5.3.1",
+    "three": "0.160.0"
+  }
+}
